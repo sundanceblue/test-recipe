@@ -155,15 +155,6 @@ public class NonOverridableToStatic extends Recipe {
             return identifier;
         }
 
-//        @Override
-//        public J.MethodInvocation visitMethodInvocation(J.MethodInvocation method, AtomicBoolean isInstanceVar) {
-//            method = super.visitMethodInvocation(method, isInstanceVar);
-//            if( !method.getMethodType().hasFlags(Flag.Static)) {
-//                isInstanceVar.set(true);
-//            }
-//            return method;
-//        }
-
     }
 
 }
